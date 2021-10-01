@@ -27,6 +27,23 @@ git flow feature fininsh MY_FEATURE
 - merge feature branch to develop branch.
 - remove feature branch.
 
+### release
+
+```bash
+git flow release start VERSION
+```
+- make new release branch.
+- change current branch to release branch
+
+```bash
+git flow release finish VERSION
+```
+
+- write release note and tags.
+- merge release branch to main branch and develop branch.
+- change current branch to develop branch.
+- remove release branch.
+
 ---
 # CH2. revert
 ## 1. rename
