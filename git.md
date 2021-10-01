@@ -53,3 +53,10 @@ git flow feature fininsh MY_FEATURE
 	- add 이후 commit 이전
 #### 🙆‍♀️ 해결방법 : `$ git reset HEAD FILENAME`
 #### 🙆‍♀️ 해결방법 : `$ git rm -f FILENAME`
+
+## 4. modify commit
+#### `$ git log` 로 stage에 올라간 commit을 확인할 수 있음
+
+- 가장 최근의 commit 만 수정
+#### 🙆‍♀️ 해결방법 : `$ git commit --amend`
+
