@@ -47,3 +47,9 @@ git flow feature fininsh MY_FEATURE
 	- ( $ git restore -- FILENAME ) 동일함
 #### 🙆‍♀️ 해결방법2 : `$ git checkout -- .`
 	- (모든 file에 대해 작업)
+
+## 3. unstaging
+- 올라갔을 때 다시 취소 (add 취소)
+	- add 이후 commit 이전
+#### 🙆‍♀️ 해결방법 : `$ git reset HEAD FILENAME`
+#### 🙆‍♀️ 해결방법 : `$ git rm -f FILENAME`
