@@ -18,7 +18,7 @@ git flow feature start MY_FEATURE
 - make new branch for new feature.
 - new branch name: feature/MY_FEATURE
 
-```badh
+```bash
 git flow feature fininsh MY_FEATURE
 ```
 
@@ -27,6 +27,32 @@ git flow feature fininsh MY_FEATURE
 - merge feature branch to develop branch.
 - remove feature branch.
 
+### release
+
+```bash
+git flow release start VERSION
+```
+- make new release branch.
+- change current branch to release branch
+
+```bash
+git flow release finish VERSION
+```
+
+- write release note and tags.
+- merge release branch to main branch and develop branch.
+- change current branch to develop branch.
+- remove release branch.
+
+### summary
+```bash
+git flow init
+git flow feature start MY_FEATURE
+git flow feature finish MY_FEATURE
+git flow release start VERSION
+git flow release finish VERSION
+git push origin --tags
+```
 ---
 # CH2. revert
 ## 1. rename
