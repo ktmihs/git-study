@@ -9,3 +9,11 @@
 - 단순히 이동을 시켰지만  원래있던 파일의 history가 깨짐
 
 #### 🙆‍♀️ 해결방법 : `$ git mv FILENAME`
+
+## 2. undoing
+- 변경사항이 마음에 안 들 때 (한 번에 되돌리기도 가능)
+
+#### 🙆‍♀️ 해결방법 : `$ git checkout -- FILENAME`
+	- ( $ git restore -- FILENAME ) 동일함
+#### 🙆‍♀️ 해결방법2 : `$ git checkout -- .`
+	- (모든 file에 대해 작업)
