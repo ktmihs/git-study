@@ -44,6 +44,15 @@ git flow release finish VERSION
 - change current branch to develop branch.
 - remove release branch.
 
+### summary
+```bash
+git flow init
+git flow feature start MY_FEATURE
+git flow feature finish MY_FEATURE
+git flow release start VERSION
+git flow release finish VERSION
+git push origin --tags
+```
 ---
 # CH2. revert
 ## 1. rename
