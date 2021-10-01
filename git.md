@@ -60,3 +60,10 @@ git flow feature fininsh MY_FEATURE
 - 가장 최근의 commit 만 수정
 #### 🙆‍♀️ 해결방법 : `$ git commit --amend`
 
+## 5. cancel commit
+#### 🙆‍♀️ 해결방법 : `$ git revert --no-commit HEAD~3..` 	
+	- 최근부터 3개를 뒤로 돌리겠다(삭제함)
+	- --no-commit : 원래 취소하면 취소commit message가 찍히는데 그걸 안 찍겠다는 말
+- `$ git commit`
+	- 다시 취소했음을 알려주어야 함
+- `$ git push`
