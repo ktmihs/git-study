@@ -18,7 +18,7 @@ git flow feature start MY_FEATURE
 - make new branch for new feature.
 - new branch name: feature/MY_FEATURE
 
-```badh
+```bash
 git flow feature fininsh MY_FEATURE
 ```
 
